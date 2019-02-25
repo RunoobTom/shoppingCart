@@ -1,0 +1,52 @@
+.goodsList {
+    max-width: 1280px;
+    margin: 60px auto 50px auto ;
+    text-align: center;
+}
+.topUl {
+    width: 100%;
+    display: table-header-group;
+}
+.topList {
+    width: 340px;
+    display: table-cell;
+    background: #8c8c8c;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contentUl {
+    width: 100%;
+    display: table-row-group;
+    margin-top: 50px;
+}
+.contentLi {
+    display: table-row;
+    position: relative;
+    height: 119px;
+    line-height: 119px;
+    border: 1px solid #8c8c8c;
+}
+.float {
+    display: table-cell;
+    border-bottom: 1px solid #8c8c8c;
+}
+.float:first-child {
+    border-left: 1px solid #8c8c8c;
+}
+.float:last-child {
+    border-right: 1px solid #8c8c8c;
+}
+.goodsListLink {
+    background-color: #605f5f;
+    color: white;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    position: relative;
+    left: 46%;
+    margin-top: 50px;
+}

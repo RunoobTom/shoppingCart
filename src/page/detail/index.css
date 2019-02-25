@@ -1,0 +1,36 @@
+.detail {
+    max-width: 1280px;
+    margin: 80px auto 30px auto;
+    text-align: left;
+}
+.detailContent {
+    width: 100%;
+}
+.detailContent h3 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.detailContentLeft {
+    float: left;
+    width: 43%;
+    padding-left: 140px;
+    /*border: 1px solid #8c8c8c;*/
+}
+.detailContentRight {
+    padding-top: 40px;
+    float: left;
+    width: 40%;
+}
+.detailContentRight ul {
+    list-style: none;
+    /*start*/
+}
+.detailContentRight li {
+    margin-bottom: 60px;
+}
+.detailLink{
+    display: block;
+    clear: both;
+    text-align: center;
+    padding-top: 80px;
+}

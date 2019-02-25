@@ -1,0 +1,175 @@
+.address {
+    max-width: 1280px;
+    margin: 0 auto 0 auto;
+    padding-top: 30px;
+}
+.top-span {
+    display: inline-block;
+    height: 50px;
+    width: 25%;
+    border-bottom: solid #ccc 2px;
+    color: #999;
+    font-size: 16px;
+}
+.top-span:first-child {
+    border-bottom: solid #EE7A23 2px;
+    color: #EE7A23;
+}
+.deliver {
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+.deliver span {
+    text-align: center;
+    margin-top: 45px;
+    font-family: "moderat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #605F5F;
+    z-index: 1;
+    display: block;
+    position: relative;
+}
+.deliver span:before, .deliver span:after {
+    content: '';
+    position: absolute;   /*定位背景横线的位置*/
+    top: 50%;
+    background: #8c8c8c;   /*背景横线颜色*/
+    width: 43%;            /*单侧横线的长度*/
+    height: 1px;
+}
+.deliver span:before {
+    left: 0;
+}
+.deliver span:after {
+    right: 0;
+}
+.middle {
+    width: 100%;
+    margin-bottom: 50px;
+}
+#middleList {
+    padding-inline-start: 0;
+    display: block;
+}
+.middle-list-li {
+    background: white;
+    border: solid #e9e9e9 2px;
+    color: #605F5F;
+    float: left;
+    margin: 10px 2% 10px 0;
+    padding: 20px 20px 40px 20px;
+    width: 23%;
+    height: 162px;
+    overflow: hidden;
+    position: relative;
+}
+
+.middle-list-li p {
+    margin-bottom: 0;
+    line-height: 30px;
+    text-align: left;
+    color: #000;
+    font-weight: normal;
+    font-size: 12px;
+}
+.middle-list-li p:first-child {
+    font-size: 18px;
+}
+.middle-list-li a {
+    margin: 0 20px 0 20px;
+    font-size: 12px;
+}
+.add {
+    background: white;
+    border: solid #e9e9e9 2px;
+    color: #605F5F;
+    float: left;
+    margin: 10px 2% 10px 0;
+    padding: 20px 20px 40px 20px;
+    width: 23%;
+    height: 162px;
+}
+.add a {
+    visibility: visible !important;
+    color: #000;
+}
+.add:hover {
+    border: solid #EE7A23 2px;
+}
+.add input {
+    display: block;
+}
+.deliver2 {
+    text-align: center;
+}
+.deliver2 span {
+    text-align: center;
+    font-family: "moderat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #605F5F;
+    z-index: 1;
+    display: block;
+    position: relative;
+}
+.deliver2 span:before, .deliver2 span:after {
+    content: '';
+    position: absolute;   /*定位背景横线的位置*/
+    top: 50%;
+    background: #8c8c8c;   /*背景横线颜色*/
+    width: 43%;            /*单侧横线的长度*/
+    height: 1px;
+}
+.deliver2 span:before {
+    left: 0;
+}
+.deliver2 span:after {
+    right: 0;
+}
+.address a {
+    visibility: hidden;
+    color: #EE7A23;
+}
+.defaultAddress {
+    visibility: hidden;
+    color: white;
+    background: #d1434a;
+    font-size:12px;
+    height: 40px;
+    width: 44px;
+    line-height: 100%;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.showAll {
+    clear: both;
+}
+.showAll a {
+    visibility: visible;
+}
+.bottom {
+    width:100%;
+}
+.deliveryWay {
+    width: 120px;
+    border: 2px solid #e9e9e9;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+.deliveryWay:hover {
+    border: 2px solid #EE7A23;
+}
+.confirmDelivery {
+    width: 100%;
+}
+.confirmDelivery button {
+    margin-top: 30px;
+    margin-left: 80%;
+    display: block;
+    width: 120px;
+    height: 55px;
+}

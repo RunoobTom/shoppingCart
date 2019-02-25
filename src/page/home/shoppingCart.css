@@ -1,0 +1,65 @@
+@import '../../../node_modules/antd/dist/antd.css';
+.App {
+  max-width: 1280px;
+  margin:50px auto 0 auto;
+  font-weight: 500;
+}
+.top {
+  /*padding-top:69px;*/
+  text-align: center;
+  font-family: "moderat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #605F5F;
+  margin-bottom: 50px;
+}
+.topLi {
+  width: 100%;
+  display: table-header-group;
+}
+.topLi ul {
+  display: table-row;
+}
+.topLi li {
+  display: table-cell;
+  height: 54px;
+  line-height: 54px;
+  background: #605F5F;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 500px;
+}
+.topLi li:first-child {
+  width: 52%;
+}
+.goodsInfo {
+  display: table-row-group;
+}
+.confirm {
+  height: 200px;
+  width: 100%;
+}
+.shoppingCartLink {
+  color: white;
+  background: #d1434a;
+  float: right;
+  display: block;
+  width: 220px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  font-size: 16px;
+}
+.allChosen {
+  margin-top: 20px;
+}
+.totalPrice {
+  float: right;
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  width: 220px;
+  font-size: 16px;
+  padding-left: 20px;
+}
